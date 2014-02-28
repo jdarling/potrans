@@ -1,0 +1,308 @@
+[
+  {
+    "code": false,
+    "created": "02/26/2014",
+    "updated" : "02/26/2014"
+  },
+  {
+    "code": "spa",
+    "name": "Spanish",
+    "fullName": "Spanish; Castilian",
+    "rightToLeft": false,
+    "locale": "es-"
+  },
+  {
+    "code": "fra",
+    "name": "French",
+    "fullName": "French",
+    "rightToLeft": false,
+    "locale": "fr-"
+  },
+  {
+    "code": "ger",
+    "name": "German",
+    "fullName": "German",
+    "rightToLeft": false,
+    "locale": "de-"
+  },
+  {
+    "code": "rum",
+    "name": "Romanian",
+    "fullName": "Romanian; Moldavian; Moldovan",
+    "rightToLeft": false,
+    "locale": "ro-"
+  },
+  {
+    "code": "ara",
+    "name": "Arabic",
+    "fullName": "Arabic",
+    "rightToLeft": true,
+    "locale": "ar-"
+  },
+  {
+    "code": "chi",
+    "name": "Chinese (Simplified)",
+    "fullName": "Chinese (Simplified)",
+    "rightToLeft": false,
+    "locale": "zh-CN"
+  },
+  {
+    "code": "rus",
+    "name": "Russian",
+    "fullName": "Russian",
+    "rightToLeft": false,
+    "locale": "ru-"
+  },
+  {
+    "code": "jpn",
+    "name": "Japanese",
+    "fullName": "Japanese",
+    "rightToLeft": false,
+    "locale": "ja-"
+  },
+  {
+    "code": "cht",
+    "name": "Chinese (Traditional)",
+    "fullName": "Chinese (Traditional)",
+    "rightToLeft": false,
+    "locale": "zh-HK"
+  },
+  {
+    "code": "dan",
+    "name": "Danish",
+    "fullName": "Danish",
+    "rightToLeft": false,
+    "locale": "da-DK"
+  },
+  {
+    "code": "dut",
+    "name": "Dutch",
+    "fullName": "Dutch; Flemish",
+    "rightToLeft": false,
+    "locale": "nl-"
+  },
+  {
+    "code": "hin",
+    "name": "Hindi",
+    "fullName": "Hindi",
+    "rightToLeft": false,
+    "locale": "hi-IN"
+  },
+  {
+    "code": "kor",
+    "name": "Korean",
+    "fullName": "Korean",
+    "rightToLeft": false,
+    "locale": "ko-KR"
+  },
+  {
+    "code": "per",
+    "name": "Persian",
+    "fullName": "Persian",
+    "rightToLeft": true,
+    "locale": "fa-IR"
+  },
+  {
+    "code": "pol",
+    "name": "Polish",
+    "fullName": "Polish",
+    "rightToLeft": false,
+    "locale": "pl-"
+  },
+  {
+    "code": "cze",
+    "name": "Czech",
+    "fullName": "Czech",
+    "rightToLeft": false,
+    "locale": "cs_CZ"
+  },
+  {
+    "code": "swe",
+    "name": "Swedish",
+    "fullName": "Swedish",
+    "rightToLeft": false,
+    "locale": "sv-"
+  },
+  {
+    "code": "por",
+    "name": "Portuguese",
+    "fullName": "Portuguese",
+    "rightToLeft": false,
+    "locale": "pt-"
+  },
+  {
+    "code": "ita",
+    "name": "Italian",
+    "fullName": "Italian",
+    "rightToLeft": false,
+    "locale": "it-"
+  },
+  {
+    "code": "hau",
+    "name": "Hausa",
+    "fullName": "Hausa",
+    "rightToLeft": false,
+    "locale": "ha-"
+  },
+  {
+    "code": "gre",
+    "name": "Greek",
+    "fullName": "Greek",
+    "rightToLeft": false,
+    "locale": "el-"
+  },
+  {
+    "code": "nor",
+    "name": "Norwegian",
+    "fullName": "Norwegian",
+    "rightToLeft": false,
+    "locale": "no-"
+  },
+  {
+    "code": "urd",
+    "name": "Urdu",
+    "fullName": "Urdu",
+    "rightToLeft": true,
+    "locale": "ur-"
+  },
+  {
+    "code": "hun",
+    "name": "Hungarian",
+    "fullName": "Hungarian",
+    "rightToLeft": false,
+    "locale": "hu-"
+  },
+  {
+    "code": "tha",
+    "name": "Thai",
+    "fullName": "Thai",
+    "rightToLeft": false,
+    "locale": "th-"
+  },
+  {
+    "code": "heb",
+    "name": "Hebrew",
+    "fullName": "Hebrew",
+    "rightToLeft": true,
+    "locale": "iw-IL"
+  },
+  {
+    "code": "tur",
+    "name": "Turkish",
+    "fullName": "Turkish",
+    "rightToLeft": false,
+    "locale": "tr-"
+  },
+  {
+    "code": "bul",
+    "name": "Bulgarian",
+    "fullName": "Bulgarian",
+    "rightToLeft": false,
+    "locale": "bg-"
+  },
+  {
+    "code": "srp",
+    "name": "Serbian",
+    "fullName": "Serbian",
+    "rightToLeft": false,
+    "locale": "sr-"
+  },
+  {
+    "code": "fin",
+    "name": "Finnish",
+    "fullName": "Finnish",
+    "rightToLeft": false,
+    "locale": "fi-"
+  },
+  {
+    "code": "pus",
+    "name": "Pashto",
+    "fullName": "Pushto; Pashto",
+    "rightToLeft": true,
+    "locale": "ps-"
+  },
+  {
+    "code": "ind",
+    "name": "Indonesian",
+    "fullName": "Indonesian",
+    "rightToLeft": false,
+    "locale": "in-"
+  },
+  {
+    "code": "eng",
+    "name": "English",
+    "fullName": "English",
+    "rightToLeft": false,
+    "locale": "en-"
+  },
+  {
+    "code": "ben",
+    "name": "Bengali",
+    "fullName": "Bengali",
+    "rightToLeft": false,
+    "locale": "bn-"
+  },
+  {
+    "code": "est",
+    "name": "Estonian",
+    "fullName": "Estonian",
+    "rightToLeft": false,
+    "locale": "et-EE"
+  },
+  {
+    "code": "fad",
+    "name": "Dari",
+    "fullName": "Dari",
+    "rightToLeft": true,
+    "locale": "fa-AF"
+  },
+  {
+    "code": "lit",
+    "name": "Lithuanian",
+    "fullName": "Lithuanian",
+    "rightToLeft": false,
+    "locale": "lt-"
+  },
+  {
+    "code": "slo",
+    "name": "Slovak",
+    "fullName": "Slovak",
+    "rightToLeft": false,
+    "locale": "sk-"
+  },
+  {
+    "code": "slv",
+    "name": "Slovenian",
+    "fullName": "Slovenian",
+    "rightToLeft": false,
+    "locale": "sl-"
+  },
+  {
+    "code": "som",
+    "name": "Somali",
+    "fullName": "Somali",
+    "rightToLeft": false,
+    "locale": "so-"
+  },
+  {
+    "code": "ukr",
+    "name": "Ukrainian",
+    "fullName": "Ukrainian",
+    "rightToLeft": false,
+    "locale": "uk-UA"
+  },
+  {
+    "code": "may",
+    "name": "Malay",
+    "fullName": "Malay",
+    "rightToLeft": false,
+    "locale": "ms-MY"
+  },
+  {
+    "code": "vie",
+    "name": "Vietnamese",
+    "fullName": "Vietnamese",
+    "rightToLeft": false,
+    "locale": "vi-VN"
+  }
+]

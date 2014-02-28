@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Feb 25 2014 14:00:53 GMT-0600 (CST)\n"
+"PO-Revision-Date: Wed Feb 26 2014 13:45:31 GMT-0600 (CST)\n"
+"Last-Translator: http://www.freetranslation.com/\n"
+"Language: Spanish\n"
+"Language-Team: http://www.freetranslation.com/\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+msgid "Hello World!"
+msgstr "¡Hola, mundo!"
+
+msgid "This is a test string"
+msgstr ""

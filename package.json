@@ -1,0 +1,35 @@
+{
+  "name": "potrans",
+  "version": "0.0.1",
+  "description": "API wrapper and console app to translate PO and POT files with FreeTranslation.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "keywords": [
+    "Internationalization",
+    "i18n",
+    "translation",
+    "t10n",
+    "FreeTranslation.com",
+    "PO",
+    "POT"
+  ],
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/jdarling/potrans.git"
+  },
+  "author": "Jeremy Darling <Jeremy.Darling@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.34.0",
+    "pofile": "^0.2.4",
+    "commander": "^2.1.0",
+    "async": "^0.2.10"
+  },
+  "devDependencies": {
+    "mocha": "^1.17.1",
+    "nock": "^0.27.2"
+  }
+}
