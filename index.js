@@ -114,6 +114,7 @@ var getLanguages = module.exports.getLanguages = function(options, filter, callb
       });
       callback(null, results);
     }catch(e){
+      e.body = body;
       callback(e);
     }
   });
@@ -215,6 +216,7 @@ var load = module.exports.load = function(options, callback){
         res.headers['Last-Translator'] = 'http://www.freetranslation.com/';
         res.headers['Language-Team'] = res.headers['Language-Team']||'http://www.freetranslation.com/';
         res.headers['PO-Revision-Date'] = (new Date()).toString();
+        res.headers['Direction'] = lang.rightToLeft?'rtl':'ltr';
         if(po&&pot){
           return mergeCullPo(options, pot, po, callback);
         }
@@ -225,7 +227,7 @@ var load = module.exports.load = function(options, callback){
 };
 
 var translateStrings = module.exports.translateStrings = function(options, po, callback){
-  var msgStr, toTranslate = [], failed = 0, success = 0, skipped = 0;
+  var msgStr, toTranslate = [], failed = 0, success = 0, skipped = 0, rtl;
   var log = options.log || function(){};
   po.items.forEach(function(item){
     msgStr = item.msgstr instanceof Array?item.msgstr.join(' ').trim():item.msgstr;
@@ -245,11 +247,20 @@ var translateStrings = module.exports.translateStrings = function(options, po, c
     post(options, 'translate', null, postArgs, function(error, response, body){
       if(error){
         log('Failed to translate: ', item.msgid);
+        console.log(error);
         failed++;
         return next();
       }else{
-        if(typeof(body)==='string'){
-          body = JSON.parse(body);
+        try{
+          if(typeof(body)==='string'){
+            body = JSON.parse(body);
+          }
+        }catch(e){
+          log('JSON ERROR: Failed to translate: ', item.msgid);
+          console.log(e);
+          console.log(body);
+          failed++;
+          return next();
         }
         if(body.errorCode){
           log('Failed to translate: ', item.msgid);

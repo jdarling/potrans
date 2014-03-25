@@ -1,6 +1,6 @@
 {
   "name": "potrans",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "API wrapper and console app to translate PO and POT files with FreeTranslation.com.",
   "main": "./index",
   "bin": {

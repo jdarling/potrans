@@ -17,6 +17,7 @@ if(options.languages){
   lib.getLanguages(options, options.languages, function(err, mappings){
     if(err){
       console.log(err);
+      return ;
     }else{
       //var langs = Object.keys(mappings), i, l=langs.length, lang, code;
       var i, l=mappings.length, lang, code;
@@ -35,7 +36,12 @@ if(options.languages){
   });
 }else{
   lib.load(options, function(err, po){
-    assert(!err, err);
+    //assert(!err, err);
+    if(err){
+      console.log(options.pofileName);
+      console.log(err);
+      return ;
+    }
     options.log = console.log;
     lib.translateStrings(options, po, function(err, response){
       assert(!err, err);
