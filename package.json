@@ -1,6 +1,6 @@
 {
   "name": "potrans",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "API wrapper and console app to translate PO and POT files with FreeTranslation.com.",
   "main": "./index",
   "bin": {
@@ -8,6 +8,9 @@
   },
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha test"
+  },
+  "bin": {
+    "potrans": "bin/potrans.js"
   },
   "keywords": [
     "Internationalization",
